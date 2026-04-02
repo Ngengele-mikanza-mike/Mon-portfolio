@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
+</head >
 <body>
 <header>
     <div>
@@ -25,16 +25,118 @@
         </ul>
     </nav>
 </header>
-<main>
-    <h1>Voici mon projet</h1>
+   <main class="container">
+        <h2 class="section-title">Mes Réalisations</h2>
+        <div class="underline"></div>
+
+        <div class="projects-grid">
+            
+            <article class="project-card">
+                <img src="Images/56b730aaf1ad04fdf08ae410dd19aef0.jpg" alt="E-commerce" class="card-image">
+                <div class="card-content">
+                    <h3>Site E-commerce</h3>
+                    <p>Une boutique en ligne complète développée avec HTML, CSS et JavaScript pur.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JS</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Démo</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="Images/5564485f2f78ecbff2374b9ebeadeb4a copy.jpg" alt="Tasks" class="card-image">
+                <div class="card-content">
+                    <h3>Gestionnaire de Tâches</h3>
+                    <p>Application web pour organiser ses projets quotidiens avec stockage local.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Flask</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Démo</a>
+                </div>
+            </article>
+            <article class="project-card">
+            <img src="Images/ee33478c5e6aeedbf464b50cf43ba7a6.jpg" alt="Blog" class="card-image">
+            <div class="card-content">
+                <h3>Blog Personnel</h3>
+                <p>Projet en cours de migration vers Laravel pour apprendre le backend.</p>
+                <div class="tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">Laravel</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+                <span class="status"><i class="fa-regular fa-clock"></i> Bientot</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <img src="Images/f688ae2a952c3dc43765bf45b39fa679.jpg" alt="Dashboard" class="card-image">
+            <div class="card-content">
+                <h3>Dashboard d'Analyse</h3>
+                <p>Visualisation de données dynamiques avec Python et la bibliothèque Matplotlib.</p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Data</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Démo</a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <img src="Images/d2422578d7fef5d4eb7a381b20691e73.jpg" alt="Météo" class="card-image">
+            <div class="card-content">
+                <h3>Application Météo</h3>
+                <p>Une application utilisant une API en temps réel pour afficher la météo mondiale.</p>
+                <div class="tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">API</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Démo</a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <img src="Images/c4cc246e3b5b19d5e30e8fa40c9d8c0b.jpg" alt="UI Design" class="card-image">
+            <div class="card-content">
+                <h3>Maquette Mobile UI</h3>
+                <p>Conception d'une interface utilisateur moderne pour une application de fitness.</p>
+                <div class="tags">
+                    <span class="tag">Figma</span>
+                    <span class="tag">Design</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#"><i class="fa-solid fa-palette"></i> Design</a>
+                <a href="#"><i class="fa-solid fa-eye"></i> Aperçu</a>
+            </div>
+        </article>
+
+            </div>
+    </main>
 </main>
 <footer>
-
-</footer><P>2026 Mikey. Tous droits reservés.</P>
-<div>
-    <a href=""></a><i class="fa-brands fa-github"></i></a>
-    <a href=""></a><i class=">fa-brands fa-x-twitter"></i></a>
-    <a href=""></a><i class=">fa-brands fa-x-twitter"></i></a>
-</div>
+ <p>2026 Mikey. Tous droits reservés.</p>
+    <div class="social-links">
+    <a href="#"><i class="fa-brands  fa-github"></i></a>
+    <a href="#"><i class="fa-brands  fa-x-twitter"></i></a>
+    <a href="#"><i class="fa-brands  fa-linkedin"></i></a>
+    </div>
+ </footer>   
 </body>
 </html>
