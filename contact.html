@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ </head>
 <body>
 <header>
     <div>
@@ -26,15 +25,42 @@
     </nav>
 </header>
 <main>
-    <h1>Voici mon contact</h1>
+  <section class="contact-container"> 
+    <h2>Contactez-moi</h2> 
+     
+    <div class="contact-content"> 
+      <div class="contact-info"> 
+        <h3>Mes coordonnées</h3> 
+        <p><i class="fa-solid fa-location-dot"></i> Basé à : Lubumbashi, RDC</p>         <p><i class="fa-solid fa-phone"></i> +243 856569865</p> 
+         
+        <div class="social-apps"> 
+          <a href="https://wa.me/+243856569865" target="_blank" class="app-link whatsapp">            <i class="fa-brands fa-whatsapp"></i> WhatsApp 
+          </a> 
+          <a href="https://t.me/+243856569865" target="_blank" class="app-link telegram">             <i class="fa-brands fa-telegram"></i> Telegram 
+          </a> 
+        </div> 
+      </div> 
+ 
+      <form action="#" method="POST" class="contact-form"> 
+        <div class="form-group"> 
+          <label for="name">Nom complet</label> 
+          <input type="text" id="name" name="name" placeholder="Votre nom" required> 
+        </div> 
+        <div class="form-group"> 
+          <label for="phone">Téléphone</label> 
+          <input type="tel" id="phone" name="phone" placeholder="Votre numéro" required> 
+        </div> 
+        <button type="submit" class="btn-submit">Envoyer</button> 
+      </form> 
+    </div> 
+  </section> 
 </main>
-<footer>
-
-</footer><P>2026 Mikey. Tous droits reservés.</P>
+<footer><P>2026 Mikey. Tous droits reservés.</P>
 <div>
-    <a href=""></a><i class="fa-brands fa-github"></i></a>
-    <a href=""></a><i class=">fa-brands fa-x-twitter"></i></a>
-    <a href=""></a><i class=">fa-brands fa-x-twitter"></i></a>
-</div>
+    <a href="#"></a><i class="fa-brands fa-github"></i></a>
+    <a href="#"></a><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#"></a><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
 </body>
 </html>

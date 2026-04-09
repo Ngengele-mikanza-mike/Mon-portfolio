@@ -371,7 +371,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Tags style "Pilule" */
+
 .tags {
     display: flex;
     flex-wrap: wrap;
@@ -406,7 +406,7 @@ nav a:hover {
     gap: 8px;
 }
 
-/* --- Footer Global --- */
+
 footer {
     background: #6366f1;
     color: white;
@@ -415,5 +415,110 @@ footer {
     margin-top: 100px;
 }
 
+ 
+/* --- Styles pour la page Contact --- */ 
+ 
+.contact-container {    
+     max-width: 900px;    
+      margin: 5rem auto;     
+      padding: 0 2rem; 
+} 
+ 
+.contact-content {    
+    display: flex;    
+    gap: 4rem;     
+    margin-top: 3rem;     
+    align-items: flex-start;     
+    flex-wrap: wrap; 
+} 
+ 
+/* Infos et boutons réseaux */ 
+.contact-info { 
+    flex: 1; 
+    min-width: 300px;     
+    text-align: left; 
+} 
+ 
+.contact-info h3 {    
+    margin-bottom: 1.5rem;    
+    color: var(--gris-tres-fonce); 
+} 
+ 
+.contact-info p {     
+    font-size: 1.1rem;     
+    margin-bottom: 1rem;    
+    color: var(--gris-fonce); 
+} 
+ 
+.contact-info i {     
+    color: var(--violet-doux);     
+    margin-right: 10px;    
+    width: 20px; 
+} 
+ 
+.social-apps {    
+    margin-top: 2rem;   
+    display: flex;    
+    gap: 1rem; 
+} 
+ 
+.app-link {    
+    text-decoration: none;    
+    padding: 10px 20px;     
+    border-radius: 8px;     
+    color: white;     
+    font-weight: 600;    
+    transition: opacity 0.3s ease; 
+} 
+ 
+.whatsapp { background-color: #25D366; } 
+.telegram { background-color: #0088cc; } 
+ 
+.app-link:hover {     opacity: 0.8; 
+} 
+ 
+/* Formulaire */ 
+.contact-form { 
+    flex: 1; 
+    min-width: 300px;     background: white;     padding: 2rem;     border-radius: 15px;     box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+} 
+ 
+.form-group {     margin-bottom: 1.5rem; 
+    text-align: left; 
+} 
+ 
+.form-group label {     display: block;     margin-bottom: 0.5rem;     font-weight: 600;     color: var(--gris-tres-fonce); 
+} 
+ 
+.form-group input {     width: 100%;     padding: 12px;     border: 1px solid var(--gris-clair);     border-radius: 8px;     font-family: inherit;     outline-color: var(--violet-doux); 
+} 
+ 
+.btn-submit {     width: 100%;     background-color: var(--violet-doux);     color: white;     border: none;     padding: 12px;     border-radius: 8px;     font-size: 1rem;     font-weight: 700;     cursor: pointer;     transition: background 0.3s ease; 
+} 
+ 
+.btn-submit:hover {     background-color: var(--violet-fonce); 
+} 
+ 
+/* Responsive */ 
+@media (max-width: 768px) {     .contact-content {         flex-direction: column; 
+    } 
+} 
+
+.card-footer a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 
 
+footer {
+    background: #6366f1;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 100px;
+} 
